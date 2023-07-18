@@ -1,0 +1,95 @@
+.body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.game{
+     display: flex;
+     justify-content:space-between;
+     width: 100%;
+    height: 130px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    align-items: center;
+    
+    
+}
+ .gameicon{
+      display:flex;
+      align-items: center;
+      margin-left: 15rem;
+      gap:10px;
+ }
+ .gameinfo{
+     display:flex;
+     align-items: center;
+ }
+ .info ul{
+     display:flex;
+ }
+ .game-searchbar ul{
+    display:flex;
+ }
+ .game-searchbar{
+    width: 262px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    margin-right: 15rem;
+ }
+  .info>ul{
+         list-style: none;
+         gap:20px;
+
+  }
+  .info{
+       gap:10px;
+  }
+  .game-searchbar>ul{
+          list-style: none;
+          gap:20px;
+          color: #3C354F;
+              
+  }
+   .info>ul>li a{
+     text-decoration:none;
+     color: #3C354F;
+     text-align: center;
+    
+    font-size: 18px;
+    
+    font-weight: 500;
+
+   }
+   .game-searchbar>ul>li a{
+     text-decoration: none;
+     text-decoration:none;
+     color: #3C354F;
+     text-align: center;
+    
+    font-size: 18px;
+    
+    font-weight: 500;
+   }
+ .G-CAPITAL{
+    color: #FF42A5;
+ }
+   .gameimage{
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+   }
+   .gameintro{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   }
+   .vector{
+     position: relative;
+      bottom:2px;
+   }
